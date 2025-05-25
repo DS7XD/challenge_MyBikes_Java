@@ -35,6 +35,9 @@ Esta API permite gerenciar motos e locações, com funcionalidades completas de 
 git clone https://github.com/seu-usuario/MyBikes.git
 cd MyBikes
 
+Execute Normalmente:
+Apenas de Run no projeto no Visual Studio Code
+
 Execute com Maven:
 mvn spring-boot:run
 
