@@ -21,7 +21,7 @@ Esta API permite gerenciar motos e locações, com funcionalidades completas de 
 - Swagger/OpenAPI (Springdoc)
 
 
-## 📦 Como executar o projeto
+## Como executar o projeto
 
 ### Pré-requisitos
 
