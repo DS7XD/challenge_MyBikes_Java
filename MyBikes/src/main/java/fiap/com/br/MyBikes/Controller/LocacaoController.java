@@ -1,13 +1,10 @@
 package fiap.com.br.MyBikes.Controller;
 
 import fiap.com.br.MyBikes.Model.Locacao;
-import fiap.com.br.MyBikes.Model.Moto;
 import fiap.com.br.MyBikes.Repository.LocacaoRepository;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/locacoes")
@@ -20,7 +17,7 @@ public class LocacaoController {
     }
 
     @GetMapping
-    public Page<Moto> listar(Pageable pageable) {
+    public Page<Locacao> listar(Pageable pageable) {
         return repository.findAll(pageable);
     }
 
