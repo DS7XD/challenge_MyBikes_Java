@@ -8,7 +8,7 @@ Esta API permite gerenciar motos e locações, com funcionalidades completas de 
 
 - Lucas de Melo RM558791
 - Guilherme Jesus Lima RM555002
-- Jean Roberto Gome RM94418
+- Jean Roberto Gomes RM94418
 
 
 ##  Tecnologias utilizadas
